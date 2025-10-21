@@ -1,10 +1,10 @@
-# 🧠 Adversarial Attacks Comparison
+# Adversarial Attacks Comparison
 
 > **Experimental comparison of FGSM, PGD, and DeepFool — analyzing trade-offs between performance, perceptibility, and transferability**
 
 ---
 
-## 📘 Overview
+##  Overview
 
 This project implements and compares three classical adversarial attack methods — **FGSM**, **PGD**, and **DeepFool** — using **PyTorch**.  
 Experiments are conducted on the **MNIST** and **CIFAR-10** datasets.
@@ -17,12 +17,10 @@ Deliverables include:
 - Visual and quantitative results (accuracy vs ε, perturbation norms, transferability matrix)
 - A concise **technical report** and **presentation slides**
 
-This repository demonstrates practical ML and research engineering skills:
-> **PyTorch implementation, experimental design, evaluation, visualization, and robust model analysis.**
 
 ---
 
-## 🗂 Table of Contents
+## Table of Contents
 
 1. [Background & Motivation](#background--motivation)
 2. [Project Objectives](#project-objectives)
@@ -31,23 +29,23 @@ This repository demonstrates practical ML and research engineering skills:
 
 ---
 
-## 🔍 Background & Motivation
+## Background & Motivation
 
 Deep neural networks are vulnerable to small, human-imperceptible perturbations known as **adversarial examples** — tiny pixel changes that can cause large misclassifications.  
 These vulnerabilities pose critical challenges for **security, reliability, and interpretability** in ML systems.
 
 Rather than training a noise generator (as other teams might do), our project performs a **systematic and reproducible comparison** of standard white-box attacks to highlight practical **trade-offs** between:
 
-- 🧩 **Attack strength:** impact on model accuracy  
-- 👁️ **Perturbation visibility:** measured with L∞ and L2 norms  
-- ⚙️ **Computation cost:** time per image / per batch  
-- 🔁 **Transferability:** how well adversarial samples fool other architectures  
+- **Attack strength:** impact on model accuracy  
+- **Perturbation visibility:** measured with L∞ and L2 norms  
+- **Computation cost:** time per image / per batch  
+- **Transferability:** how well adversarial samples fool other architectures  
 
 This focus on reproducibility and interpretability makes the project useful for both **academic study** and **real-world ML reliability** analysis.
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 ### Core Goals
 - **Implement** three well-known adversarial attacks using PyTorch:
@@ -71,9 +69,9 @@ This focus on reproducibility and interpretability makes the project useful for 
 
 ---
 
-## ⚙️ Implementation Plan (A–Z)
+##  Implementation Plan (A–Z)
 
-### 🧩 Environment Setup
+### Environment Setup
 - Create a Python environment (`conda` or `venv`)  
 - Dependencies:
   ```bash
