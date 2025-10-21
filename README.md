@@ -1,8 +1,8 @@
 # Adversarial Attacks Comparison
 
-> **Experimental comparison of FGSM, PGD, and DeepFool — analyzing trade-offs between performance, perceptibility, and transferability**
+> **Experimental comparison of FGSM, PGD, and DeepFool ,  analyzing trade-offs between performance, perceptibility, and transferability**
 
----
+
 
 ##  Overview
 
@@ -17,9 +17,6 @@ Deliverables include:
 - Visual and quantitative results (accuracy vs ε, perturbation norms, transferability matrix)
 - A concise **technical report** and **presentation slides**
 
-
----
-
 ## Table of Contents
 
 1. [Background & Motivation](#background--motivation)
@@ -27,7 +24,7 @@ Deliverables include:
 3. [Implementation Plan (A–Z)](#implementation-plan-a–z)
 4. [Expected Results & Analysis](#expected-results--analysis)
 
----
+
 
 ## Background & Motivation
 
@@ -43,7 +40,7 @@ Rather than training a noise generator (as other teams might do), our project pe
 
 This focus on reproducibility and interpretability makes the project useful for both **academic study** and **real-world ML reliability** analysis.
 
----
+
 
 ##  Project Objectives
 
@@ -67,7 +64,6 @@ This focus on reproducibility and interpretability makes the project useful for 
 - Implement **Adversarial Training** (e.g., FGSM-based)  
   → Study how including adversarial samples during training affects robustness and cost.
 
----
 
 ##  Implementation Plan (A–Z)
 
