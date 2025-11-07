@@ -1,6 +1,6 @@
 # Adversarial Attacks Comparison
 
-> **Experimental comparison of FGSM, PGD, and DeepFool ,  analyzing trade-offs between performance, perceptibility, and transferability**
+Experimental comparison of FGSM, PGD, and DeepFool ,  analyzing trade-offs between performance, perceptibility, and transferability
 
 
 
